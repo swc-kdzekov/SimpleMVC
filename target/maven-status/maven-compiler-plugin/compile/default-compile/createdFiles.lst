@@ -1,6 +1,9 @@
-com\service\SubService2.class
 com\tutorial\TestController.class
 com\service\ISubService.class
+com\model\ResponseTransfer.class
 com\service\MainService.class
+com\service\SubService2.class
+com\model\RequestObject.class
+com\tutorial\TestRestController.class
 com\service\SubService.class
 com\service\TestService.class
