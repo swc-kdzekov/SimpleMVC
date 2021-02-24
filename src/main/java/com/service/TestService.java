@@ -19,4 +19,15 @@ public class TestService {
     public Optional<String> getCountrOfOrigin(String name){
         return Optional.ofNullable(countryOrigin.get(name));
     }
+
+    public String isEvenOrOddLength(String name){
+        if (name.length()%2==0){
+            return "even";
+        }else{
+            return "odd";
+        }
+    }
+
+
+
 }
